@@ -9,7 +9,9 @@ function AddnewBike(){
 
     model.data.bikes.push({name: NewBikeName, size: NewBikeSize, color: NewBikeColor})
 
-
+    model.viewstate.addView.name = '';
+    model.viewstate.addView.size = '';
+    model.viewstate.addView.color = '';
 
     document.getElementById('bikename').value = '';
     document.getElementById('bikesize').value = '';
