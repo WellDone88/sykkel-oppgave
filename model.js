@@ -1,14 +1,23 @@
 const model = {
 
     app:{
-        currentPage: 'homeView'
+        currentPage: 'addView'
     },
 
 
     viewstate:{
-        name: '',
-        size: '',
-        color: '',
+
+        homeView:{
+            name: '',
+            size: '',
+            color: '',
+        },
+
+        addView: {
+            name:'',
+            size:'',
+            color: '',
+        },
 
 
     },
