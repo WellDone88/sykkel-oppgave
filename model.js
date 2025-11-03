@@ -1,7 +1,7 @@
 const model = {
 
     app:{
-        currentPage: 'addView'
+        currentPage: 'homeView'
     },
 
 

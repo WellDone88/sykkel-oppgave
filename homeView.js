@@ -16,7 +16,10 @@ function homeView(){
 
     HTML += /*HTML*/`
         </ul>
+
+    <button onclick="changePage('addView')">til addView</button>
     `;
+
 
     appDiv.innerHTML = HTML;
 }
